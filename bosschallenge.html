@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h1 id="putName">  What is the name of the ramen?
+</h1>
+  <input type="text" id="item">
+     <button onclick ="addObject()">Add new object</button>
+    <script>
+      function addObject() {
+        var x = document.getElementById('item').value;
+                localStorage.setItem("addObject",x);
+                location.href="boss2.html";
+      }
+    </script>
+  </body>
+</html>
+

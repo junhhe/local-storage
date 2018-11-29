@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1 id="putPrice">  What is the price of the ramen?</h1>
+<input type="text" id="item2">
+      <button onclick ="addObject()">Add new object</button>
+    <script>
+      function addObject() {
+         var x = document.getElementById('item2').value;
+        localStorage.setItem("addObject2",x);
+        location.href="boss3.html";
+      }
+    </script>
+  </body>
+</html>
